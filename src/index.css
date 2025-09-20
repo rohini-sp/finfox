@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000;
+  background-image: 
+    linear-gradient(rgba(255, 68, 0, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 68, 0, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #ff4400, #ff8800);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
